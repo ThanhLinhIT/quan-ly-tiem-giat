@@ -1,7 +1,7 @@
 {
-  "version": "1.2.4",
-  "url": "https://github.com/ThanhLinhIT/quan-ly-tiem-giat/releases/download/v1.2.4/CaiDat-QuanLyTiemGiat.msi",
-  "sha256": "BA779EC93B609E74616D3426C2901EFB7BFBC0499757DFCA0556A7F836D14622",
-  "notes": "Phần mềm nay kiểm tra tình trạng bản quyền qua mạng mỗi lần mở. Nếu máy được nơi bán tạm ngưng theo thỏa thuận giữa hai bên, phần mềm hiện màn hình thông báo kèm lý do và số điện thoại liên hệ; gọi cho nơi bán là mở lại được ngay, kể cả khi máy không có mạng. Mất mạng không làm phần mềm ngưng chạy — tiệm vẫn nhận đồ và thu tiền bình thường.",
+  "version": "1.2.5",
+  "url": "https://github.com/ThanhLinhIT/quan-ly-tiem-giat/releases/download/v1.2.5/CaiDat-QuanLyTiemGiat.msi",
+  "sha256": "712D450FB745B6FC4DCE57E0A253BEE6B58D48CAAF25806DB8951AB0AE2579A9",
+  "notes": "Mở khóa xong là vào được ngay: máy đang tạm ngưng nay tự hỏi lại tình trạng lúc mở phần mềm, không phải bấm \"Thử lại\" nữa. Nút \"Cập nhật ngay\" ở cửa sổ mời cập nhật không còn là nút mặc định — một phím Enter lỡ tay không còn khởi động lại phần mềm giữa lúc đang bán hàng. Đổi chỗ đọc tình trạng bản quyền sang một địa chỉ riêng.",
   "mandatory": false
 }
