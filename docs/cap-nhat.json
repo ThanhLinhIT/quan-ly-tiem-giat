@@ -1,0 +1,7 @@
+{
+  "version": "1.2.3",
+  "url": "https://github.com/ThanhLinhIT/quan-ly-tiem-giat/releases/download/v1.2.3/CaiDat-QuanLyTiemGiat.msi",
+  "sha256": "A1531F8F105CF089E97EFFF65895B97548861C41D86EB5B6AC6CD4D7D5631A83",
+  "notes": "Sửa lỗi màn hình đổi mật khẩu lần đầu che mất nút \"Để sau\" và bấm vào không có tác dụng. Nút \"Mở đơn\" ở màn hình Giám sát nay chỉ hiện ở dòng thật sự mở được đơn, bấm là ra đơn ngay; bấm đúp vào dòng cũng mở được. Vật tư dựng sẵn lúc cài đặt không còn bị báo \"sắp hết\" khi tiệm chưa khai tồn kho — nay phân biệt rõ Chưa nhập kho, Đã hết và Sắp hết. Màn hình Nhận đồ bỏ ô \"Mã tag\": số phiếu in trên phiếu đã là mã của bao đồ. Khách quen chỉ cần đúng số điện thoại là nhận đồ được, không phải gõ lại tên; đổi số điện thoại thì tên khách cũ không còn dính lại. Từ bản này phần mềm tự kiểm tra và tải bản mới.",
+  "mandatory": false
+}

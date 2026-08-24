@@ -4,7 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Quản lý Tiệm Giặt</title>
-<meta name="description" content="Phần mềm quản lý tiệm giặt sấy: nhận đồ, cân sau khi giặt, in phiếu, thu tiền, theo dõi công nợ. Chạy offline trên Windows, không cần cài .NET.">
+<meta name="description" content="Phần mềm quản lý tiệm giặt sấy: nhận đồ, cân sau khi giặt, in phiếu 80mm, thu tiền, theo dõi công nợ. Chạy offline trên Windows, không cần cài .NET. Tải về dùng thử miễn phí.">
+<link rel="canonical" href="https://thanhlinhit.github.io/quan-ly-tiem-giat/">
+<meta name="theme-color" content="#0B3C4D">
+<meta name="author" content="THANHLINHIT">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Quản lý Tiệm Giặt">
+<meta property="og:url" content="https://thanhlinhit.github.io/quan-ly-tiem-giat/">
+<meta property="og:title" content="Quản lý Tiệm Giặt — phần mềm cho tiệm giặt sấy">
+<meta property="og:description" content="Bao đồ của ai, để kệ nào, thu bao nhiêu. Nhận đồ, cân sau khi giặt, in phiếu, thu tiền, theo dõi công nợ — chạy offline trên máy tiệm.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Quản lý Tiệm Giặt — phần mềm cho tiệm giặt sấy">
+<meta name="twitter:description" content="Bao đồ của ai, để kệ nào, thu bao nhiêu. Chạy offline trên Windows, tải về dùng thử miễn phí.">
 <link rel="icon" type="image/png" href="data:image/png;base64,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">
 <style>
 /* ============================================================
@@ -599,6 +612,134 @@ kbd {
 }
 
 /* ============================================================
+   HUY HIỆU PHIÊN BẢN Ở ĐẦU TRANG
+   ============================================================ */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 20px;
+  padding: 5px 14px 5px 11px;
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .07);
+  color: var(--band-muc);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+.chip b { color: #FFFFFF; font-weight: 600; }
+
+.chip .dot { background: var(--ngoc); }
+
+/* ============================================================
+   BẢN MỚI
+   ============================================================ */
+.moi {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.moi li {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+  background: var(--mat);
+  border: 1px solid var(--vien);
+  border-left: 3px solid var(--ngoc);
+  border-radius: 10px;
+  padding: 18px 22px;
+}
+
+.moi svg { color: var(--ngoc); margin-top: 3px; }
+
+.moi h3 {
+  font-family: var(--body);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.moi p {
+  margin-top: 5px;
+  color: var(--muc-nhat);
+  font-size: 15px;
+  max-width: var(--do-rong-chu);
+}
+
+.tu-capnhat {
+  margin-top: 22px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  background: var(--xanh-soft);
+  border: 1px solid var(--vien);
+  color: var(--muc-nhat);
+  font-size: 15px;
+  max-width: var(--do-rong-chu);
+}
+
+.tu-capnhat b { color: var(--muc); }
+
+/* ============================================================
+   LIÊN HỆ
+   ============================================================ */
+.lienhe {
+  margin-top: 8px;
+  background: var(--band);
+  border-radius: 14px;
+  padding: 40px 44px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  align-items: center;
+  box-shadow: var(--bong);
+}
+
+.lienhe h2 { color: #FFFFFF; font-size: clamp(24px, 3vw, 31px); }
+
+.lienhe p {
+  margin-top: 10px;
+  color: var(--band-mo);
+  font-size: 16px;
+  max-width: 52ch;
+}
+
+.lienhe-nut {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.so-dt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--ngoc);
+  color: #04231F;
+  font-family: var(--display);
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: .01em;
+  text-decoration: none;
+  padding: 14px 26px;
+  border-radius: 10px;
+  white-space: nowrap;
+  transition: transform .12s ease, filter .12s ease;
+}
+
+.so-dt:hover { filter: brightness(1.07); transform: translateY(-1px); }
+
+.gio-lam {
+  color: var(--band-mo);
+  font-size: 13.5px;
+  text-align: center;
+}
+
+/* ============================================================
    CHÂN TRANG
    ============================================================ */
 footer {
@@ -620,8 +761,15 @@ footer b { color: var(--muc); }
   .phieu { max-width: 320px; margin-inline: auto; }
 }
 
+@media (max-width: 860px) {
+  .lienhe { grid-template-columns: minmax(0, 1fr); padding: 30px 26px; }
+  .lienhe-nut { align-items: stretch; }
+}
+
 @media (max-width: 640px) {
   body { font-size: 16px; }
+  .so-dt { font-size: 22px; }
+  .moi li { padding: 16px 18px; }
   .band { padding-bottom: 150px; }
   .shot-holder { margin-top: -122px; }
   .shot { padding: 20px; }
@@ -648,6 +796,8 @@ footer b { color: var(--muc); }
         <span>Phần mềm cho tiệm giặt sấy</span>
       </div>
     </div>
+
+    <p class="chip"><i class="dot"></i>Bản <b>1.2.3</b> &middot; 24/08/2026 &middot; máy đang dùng tự nhận bản mới</p>
 
     <h1>Bao đồ của ai, để kệ nào, thu bao nhiêu</h1>
 
@@ -694,7 +844,7 @@ footer b { color: var(--muc); }
       <div class="phieu-dong"><span>Hẹn trả</span><span>24/08</span></div>
       <div class="phieu-dong"><span>Khách</span><span>Cô Bảy</span></div>
       <div class="phieu-dong"><span>Điện thoại</span><span>0912 345 678</span></div>
-      <div class="phieu-dong"><span>Số bao</span><span>3 bao &middot; tag 47</span></div>
+      <div class="phieu-dong"><span>Số bao</span><span>3 bao</span></div>
       <hr>
       <div class="phieu-mon">
         <div class="phieu-dong"><span>Quần áo</span><span>cân sau</span></div>
@@ -727,7 +877,7 @@ footer b { color: var(--muc); }
             <h3>Khách gửi đồ</h3>
             <p>
               Gõ số điện thoại — khách quen thì tên tự hiện. Bấm chọn nhóm đồ trong bảng giá,
-              ghi số bao và mã tag, in phiếu đưa khách. Chưa thu tiền ở bước này.
+              ghi số bao, in phiếu đưa khách. Chưa thu tiền ở bước này.
             </p>
           </div>
         </li>
@@ -840,10 +990,11 @@ footer b { color: var(--muc); }
         </p>
       </li>
       <li>
-        <h3>Số bao, mã tag, vị trí kệ</h3>
+        <h3>Số bao và vị trí kệ</h3>
         <p>
           Khách nhớ &ldquo;tôi gửi 3 bao&rdquo; chứ không nhớ mấy cái áo. Ghi đúng thứ hai bên
-          đếm với nhau, và ghi luôn <b>kệ nào</b> để khách tới là lấy ra ngay.
+          đếm với nhau. <b>Số phiếu</b> in sẵn trên phiếu chính là mã của bao đồ &mdash; ghi số đó
+          lên tag là xong, và ghi luôn <b>kệ nào</b> để khách tới là lấy ra ngay.
         </p>
       </li>
       <li>
@@ -888,7 +1039,87 @@ footer b { color: var(--muc); }
           xuất ra file Excel, không phải gõ lại.
         </p>
       </li>
+      <li>
+        <h3>Bản mới tự về</h3>
+        <p>
+          Có bản sửa lỗi hay thêm việc, phần mềm hỏi một câu rồi <b>tự tải, tự cài</b>.
+          Không phải gọi thợ, không phải chép USB. Sổ sách giữ nguyên.
+        </p>
+      </li>
     </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="prose">
+      <p class="eyebrow" style="color: var(--ngoc)">Bản 1.2.3 &middot; 24/08/2026</p>
+      <h2>Vừa sửa gì ở bản này</h2>
+      <p class="section-intro">
+        Phần mềm được sửa theo đúng những gì chủ tiệm đang dùng báo lại.
+      </p>
+    </div>
+
+    <ul class="moi">
+      <li>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 6 9 17l-5-5"></path>
+        </svg>
+        <div>
+          <h3>Vật tư mới cài không còn bị kêu &ldquo;sắp hết&rdquo;</h3>
+          <p>
+            Phần mềm dựng sẵn danh mục bột giặt, nước xả, túi nilon để tiệm khỏi gõ tay. Trước
+            đây cả danh mục đó bị báo sắp hết ngay hôm đầu, dù tiệm chưa khai tồn kho lần nào.
+            Nay chia rõ ba tình trạng: <b>Chưa nhập kho</b>, <b>Đã hết</b> và <b>Sắp hết</b> —
+            chỉ hai cái sau mới hiện lên màn hình Tổng quan.
+          </p>
+        </div>
+      </li>
+      <li>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 6 9 17l-5-5"></path>
+        </svg>
+        <div>
+          <h3>Màn hình đổi mật khẩu lần đầu</h3>
+          <p>
+            Cửa sổ cao cố định nên trên màn hình phóng to, hàng nút bị đẩy khuất; nút
+            <b>Để sau</b> lại còn bấm không ăn. Nay cửa sổ tự co theo màn hình, hai nút luôn nằm
+            ở đáy, và bấm Để sau là vào làm việc được ngay &mdash; phần mềm nhắc lại sau.
+          </p>
+        </div>
+      </li>
+      <li>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 6 9 17l-5-5"></path>
+        </svg>
+        <div>
+          <h3>Nút &ldquo;Mở đơn&rdquo; ở màn hình Giám sát</h3>
+          <p>
+            Nút hiện ở mọi dòng, kể cả dòng chốt ca vốn không có đơn nào để mở, nên bấm mãi
+            không thấy gì. Nay nút chỉ hiện ở dòng thật sự mở được, và bấm đúp vào dòng cũng mở.
+          </p>
+        </div>
+      </li>
+      <li>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 6 9 17l-5-5"></path>
+        </svg>
+        <div>
+          <h3>Nhận đồ bớt một ô phải gõ</h3>
+          <p>
+            Bỏ ô <b>Mã tag</b>: số phiếu in sẵn trên phiếu nhận đồ đã là mã duy nhất của bao đồ
+            rồi. Khách quen chỉ cần đúng số điện thoại là nhận đồ được, không phải gõ lại tên;
+            đổi số điện thoại thì tên khách cũ cũng không còn dính lại gây nhầm hồ sơ.
+          </p>
+        </div>
+      </li>
+    </ul>
+
+    <p class="tu-capnhat">
+      <b>Từ bản này phần mềm tự cập nhật.</b> Mỗi lần mở, nó hỏi máy chủ xem có bản mới không;
+      có thì hiện lời mời, bạn bấm đồng ý là nó tự tải và tự cài. Sổ sách giữ nguyên.
+      Máy đang chạy bản 1.2.2 trở về trước cần cài tay bản này một lần, từ đó về sau tự cập nhật.
+    </p>
   </div>
 </section>
 
@@ -978,7 +1209,7 @@ footer b { color: var(--muc); }
     <div class="tech">
       <dl>
         <dt>Phiên bản</dt>
-        <dd>1.2.2</dd>
+        <dd>1.2.3 &mdash; 24/08/2026</dd>
 
         <dt>Yêu cầu</dt>
         <dd>Windows 10 / 11 &mdash; 64-bit</dd>
@@ -987,24 +1218,63 @@ footer b { color: var(--muc); }
         <dd>CaiDat-QuanLyTiemGiat.msi &mdash; 69,6 MB</dd>
 
         <dt>SHA-256</dt>
-        <dd>3E5435523E7F6F1AB9E0DD4767AFB406D6954365CEBFE5A671351B214EAC3529</dd>
+        <dd>A1531F8F105CF089E97EFFF65895B97548861C41D86EB5B6AC6CD4D7D5631A83</dd>
 
         <dt>Bản chạy thẳng</dt>
-        <dd>QuanLyTiemGiat-1.2.2.zip &mdash; 70,2 MB</dd>
+        <dd>QuanLyTiemGiat.zip &mdash; 70,2 MB</dd>
 
         <dt>SHA-256</dt>
-        <dd>D125E781EE58B6B93807FC1C2F5B3D3A9B3E3859519A3A7A6027CDED32667115</dd>
+        <dd>DFA98449ED33E6D5B0DAB7EA4B3746B10335CAF24E0A0083AEE11EDEFFE231A1</dd>
       </dl>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="lienhe">
+      <div>
+        <h2>Còn phân vân thì gọi một cuộc</h2>
+        <p>
+          Tải về dùng thử trước đã, không mất gì. Cần mã kích hoạt, cần hỏi giá, hay cần người
+          hướng dẫn buổi đầu &mdash; gọi thẳng số bên cạnh, gặp đúng người làm ra phần mềm này.
+        </p>
+      </div>
+      <div class="lienhe-nut">
+        <a class="so-dt" href="tel:0397492890">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path>
+          </svg>
+          0397.492.890
+        </a>
+        <span class="gio-lam">Gọi hoặc nhắn Zalo &middot; 8h&ndash;21h mỗi ngày</span>
+      </div>
     </div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <p><b>Quản lý Tiệm Giặt</b> &mdash; phần mềm cho tiệm giặt sấy.</p>
+    <p><b>Quản lý Tiệm Giặt</b> &mdash; phần mềm cho tiệm giặt sấy. Bản 1.2.3.</p>
     <p>THANHLINHIT &middot; <a href="tel:0397492890">0397.492.890</a></p>
   </div>
 </footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Quản lý Tiệm Giặt",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Windows 10, Windows 11",
+  "softwareVersion": "1.2.3",
+  "inLanguage": "vi",
+  "url": "https://thanhlinhit.github.io/quan-ly-tiem-giat/",
+  "downloadUrl": "https://github.com/ThanhLinhIT/quan-ly-tiem-giat/releases/latest/download/CaiDat-QuanLyTiemGiat.msi",
+  "description": "Phần mềm quản lý tiệm giặt sấy chạy offline trên Windows: nhận đồ, cân sau khi giặt, in phiếu 80mm, thu tiền, theo dõi công nợ, chốt ca và báo cáo doanh thu.",
+  "author": { "@type": "Organization", "name": "THANHLINHIT", "telephone": "+84397492890" }
+}
+</script>
 
 </body>
 </html>
