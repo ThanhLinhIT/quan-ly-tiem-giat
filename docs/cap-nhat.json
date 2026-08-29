@@ -1,7 +1,7 @@
 {
-  "version": "1.2.5",
-  "url": "https://github.com/ThanhLinhIT/quan-ly-tiem-giat/releases/download/v1.2.5/CaiDat-QuanLyTiemGiat.msi",
-  "sha256": "712D450FB745B6FC4DCE57E0A253BEE6B58D48CAAF25806DB8951AB0AE2579A9",
-  "notes": "Mở khóa xong là vào được ngay: máy đang tạm ngưng nay tự hỏi lại tình trạng lúc mở phần mềm, không phải bấm \"Thử lại\" nữa. Nút \"Cập nhật ngay\" ở cửa sổ mời cập nhật không còn là nút mặc định — một phím Enter lỡ tay không còn khởi động lại phần mềm giữa lúc đang bán hàng. Đổi chỗ đọc tình trạng bản quyền sang một địa chỉ riêng.",
+  "version": "1.2.6",
+  "url": "https://github.com/ThanhLinhIT/quan-ly-tiem-giat/releases/download/v1.2.6/CaiDat-QuanLyTiemGiat.msi",
+  "sha256": "35FF9E52AEBBAE8F1855C7E0656CBAA90EACAD15A83F20775C3A7EEF131CBB19",
+  "notes": "Bổ sung công cụ hỗ trợ kỹ thuật từ xa, giúp xử lý nhanh khi tiệm cần trợ giúp đăng nhập. Một vài cải thiện nhỏ về độ ổn định.",
   "mandatory": false
 }
